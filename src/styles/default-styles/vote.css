@@ -1,0 +1,40 @@
+div.current-user-vote-section {
+    position : absolute;
+    width: fit-content;
+    height: fit-content;
+    opacity: 0.5;
+    left: 50%;
+    transform: translate(-100%, -50%);
+}
+
+div.current-user-vote-section:hover {
+    opacity: 0.8;
+}
+
+span.thumbs-down-fa-icon, span.thumbs-up-fa-icon {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    float: left;
+}
+
+span.thumbs-down-fa-icon {
+    color: red;
+}
+
+span.thumbs-up-fa-icon {
+    color: blue;
+}
+
+/* vote (progress) bar */
+div.progress {
+    float: left;
+    width: 75%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+span.progress-dislike-section {
+    text-align: center;
+    background-color: red; 
+    color: white;
+}
+/* end vote (progress) bar */

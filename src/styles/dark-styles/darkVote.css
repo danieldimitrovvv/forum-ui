@@ -1,0 +1,46 @@
+div.dark-theme div.current-user-vote-section {
+    position : absolute;
+    width: fit-content;
+    height: fit-content;
+    opacity: 0.5;
+    left: 50%;
+    transform: translate(-100%, -50%);
+}
+
+div.dark-theme div.current-user-vote-section:hover {
+    opacity: 0.8;
+}
+
+div.dark-theme span.thumbs-down-fa-icon, span.thumbs-up-fa-icon {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    float: left;
+}
+
+div.dark-theme span.thumbs-down-fa-icon {
+    color: rgb(36, 35, 35);
+}
+
+div.dark-theme span.thumbs-up-fa-icon {
+    /* color: rgb(124, 124, 136); */
+    color: rgb(104, 104, 112);;
+}
+
+/* vote (progress) bar */
+div.dark-theme div.progress {
+    float: left;
+    width: 75%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.dark-theme div.progress-bar {
+    background-color: rgb(104, 104, 112);
+    color: white;
+}
+
+div.dark-theme span.progress-dislike-section {
+    text-align: center;
+    background-color: rgb(36, 35, 35); 
+    color: white;
+}
+/* end vote (progress) bar */

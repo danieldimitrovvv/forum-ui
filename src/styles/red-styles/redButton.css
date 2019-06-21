@@ -1,0 +1,9 @@
+div.red-theme-main *.btn-primary {
+    background-color:  rgb(201, 0, 0) !important;
+    border-color:white;
+}
+
+div.red-theme-main *.btn-primary:hover {
+    background-color: rgba(255, 67, 67, 0.774);
+    border-color:white;
+}

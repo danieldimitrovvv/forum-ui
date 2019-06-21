@@ -1,0 +1,47 @@
+div.blue-theme div.settings-section button.btn.btn-secondary.dropdown-toggle,
+div.blue-theme div.theme-section {
+    background-color: rgb(34, 99, 240);
+    border: 1px solid white;
+    color: white;
+}
+
+div.blue-theme div.settings-section {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    float: right;
+    z-index: 999;
+}
+
+div.blue-theme div.theme-section {
+    background-color: rgb(34, 99, 240);
+    border: 1px solid white;
+    color: white;
+    padding: 5px 0;
+}
+
+div.blue-theme div.dropdown-menu.show {
+    padding: 0;
+}
+
+div.blue-theme div.dropdown-menu.show div.title-section{
+    text-align: center;
+}
+
+div.blue-theme div.dropdown-menu.show ul{
+    list-style: none;
+    padding: 0;
+}
+
+div.blue-theme div.dropdown-menu.show ul li{
+    padding: 0;
+    padding-left: 7px;
+}
+
+div.blue-theme div.dropdown-menu.show ul li:hover{
+    background-color: rgba(68, 127, 255, 0.774);
+}
+
+div.blue-theme button.btn.btn-secondary.dropdown-toggle {
+    background-color: rgb(34, 99, 240);
+}

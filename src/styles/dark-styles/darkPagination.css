@@ -1,0 +1,33 @@
+
+div.dark-theme li.page-item .page-link{
+    background-color: rgb(56, 55, 55) !important;
+    color: white !important;
+}
+
+div.dark-theme li.page-item.active .page-link{
+    background-color: rgb(95, 92, 92) !important;
+    color: white !important;
+    border-color: white;
+}
+
+div.dark-theme li.page-item.disabled .page-link{
+    background-color: rgb(68, 65, 65) !important;
+    color: rgb(151, 146, 146) !important;
+    border-color: white;
+}
+
+div.dark-theme div.css-1pcexqc-container,
+div.dark-theme div.css-bg1rzq-control,
+div.dark-theme div.css-1hwfws3 * {
+    color: white;
+}
+
+div.dark-theme div.css-kj6f9i-menu * *:hover{
+    background-color: rgb(167, 161, 161);
+    color:black;
+}
+
+div.dark-theme div.css-kj6f9i-menu,
+div.dark-theme div.css-bg1rzq-control {
+    background-color: rgb(68, 65, 65);
+}

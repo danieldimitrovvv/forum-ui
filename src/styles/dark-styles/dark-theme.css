@@ -1,0 +1,14 @@
+
+div.dark-theme-main hr {
+    background-color: white;
+}
+
+div.dark-theme-main a {
+    text-decoration: none;
+    color: white;
+}
+
+div.dark-theme-main a:hover {
+    text-decoration: none;
+    color:black;
+}

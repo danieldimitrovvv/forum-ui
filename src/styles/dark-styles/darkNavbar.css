@@ -1,0 +1,20 @@
+div.dark-theme nav.navbar {
+    background-color: rgb(56, 55, 55) !important;
+}
+
+div.dark-theme div.navbar-collapse ul li a{
+    color: rgb(243, 52, 52) !important;
+}
+
+div.dark-theme div.navbar-collapse ul li a{
+    color: white !important;
+}
+
+div.dark-theme div.navbar-collapse ul li:hover {
+    background-color: rgb(126, 126, 126, 0.774) !important;
+    
+}
+
+div.dark-theme button.navbar-toggler{
+    background-color: rgb(102, 102, 102);
+}

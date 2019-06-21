@@ -1,0 +1,8 @@
+div.dark-theme-main *.btn-primary {
+    background-color: rgb(56, 55, 55) !important;
+    border-color:white;
+}
+
+div.dark-theme-main *.btn-primary:hover {
+    border-color:white;
+}

@@ -1,0 +1,33 @@
+
+div.blue-theme li.page-item .page-link{
+    background-color:  rgb(21, 92, 245) !important;
+    color: white !important;
+}
+
+div.blue-theme li.page-item.active .page-link{
+    background-color:  rgb(7, 60, 175) !important;
+    color: white !important;
+    border-color: white;
+}
+
+div.blue-theme li.page-item.disabled .page-link{
+    background-color: rgba(68, 127, 255) !important;
+    color: rgb(231, 223, 223) !important;
+    border-color: white;
+}
+
+div.blue-theme div.css-1pcexqc-container,
+div.blue-theme div.css-bg1rzq-control,
+div.blue-theme div.css-1hwfws3 * {
+    color: white;
+}
+
+div.blue-theme div.css-kj6f9i-menu * *:hover{
+    background-color: rgb(2, 73, 226);
+    color:white;
+}
+
+div.blue-theme div.css-kj6f9i-menu,
+div.blue-theme div.css-bg1rzq-control {
+    background-color: rgb(68, 127, 255);
+}

@@ -1,0 +1,17 @@
+div.blue-theme nav.navbar {
+    background-color: rgb(34, 99, 240) !important;
+}
+
+div.navbar-collapse ul li a{
+    color: white !important;
+    
+}
+
+div.blue-theme div.navbar-collapse ul li:hover {
+    background-color: rgba(68, 127, 255, 0.774) !important;
+    
+}
+
+div.blue-theme button.navbar-toggler{
+    background-color: white;
+}

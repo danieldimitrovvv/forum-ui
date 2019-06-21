@@ -1,0 +1,49 @@
+div.dark-theme div.settings-section button.btn.btn-secondary.dropdown-toggle,
+div.dark-theme div.theme-section {
+    background-color: rgb(56, 55, 55);
+    border: 1px solid white;
+    color: white;
+}
+
+div.dark-theme div.settings-section {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    float: right;
+    z-index: 999;
+}
+
+div.dark-theme div.theme-section {
+    background-color: rgb(56, 55, 55);
+    border: 1px solid white;
+    color: white;
+    padding: 5px 0;
+}
+
+div.dark-theme div.dropdown-menu.show {
+    padding: 0;
+}
+
+div.dark-theme div.dropdown-menu.show div.title-section{
+    text-align: center;
+}
+
+div.dark-theme div.dropdown-menu.show ul{
+    list-style: none;
+    padding: 0;
+}
+
+div.dark-theme div.dropdown-menu.show ul li{
+    padding: 0;
+    padding-left: 7px;
+}
+
+div.dark-theme div.dropdown-menu.show ul li:hover{
+    background-color: rgb(102, 102, 102);
+}
+
+div.dark-theme button.btn.btn-secondary.dropdown-toggle {
+    background-color: rgb(56, 55, 55);
+}
+
+

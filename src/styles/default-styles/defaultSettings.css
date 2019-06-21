@@ -1,0 +1,47 @@
+
+div.settings-section button.btn.btn-secondary.dropdown-toggle,
+div.theme-section {
+    /* background-color: #f8f9fa; */
+    background-color: rgb(245, 245, 245);
+    /* border: 1px solid black; */
+    border:none;
+    color: black;
+}
+
+div.settings-section {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    float: right;
+    z-index: 999;
+}
+
+div.theme-section {
+    padding: 5px 0;
+}
+
+div.dropdown-menu.show {
+    padding: 0;
+}
+
+div.dropdown-menu.show div.title-section{
+    text-align: center;
+}
+
+div.dropdown-menu.show ul{
+    list-style: none;
+    padding: 0;
+}
+
+div.dropdown-menu.show ul li{
+    padding: 0;
+    padding-left: 7px;
+}
+
+div.dropdown-menu.show ul li:hover{
+    background-color: rgb(172, 170, 170);
+}
+
+button.btn.btn-secondary.dropdown-toggle {
+    background-color: rgb(126, 123, 123);
+}
